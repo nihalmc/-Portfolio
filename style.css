@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+/*1-header*/
+header{
+    width: 100%;
+    padding: 20px;
+    background-color:rgba(23,23,23,0.15);
+    position: absolute;
+    top: 0;
+}
+header a{
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 14px;
+    color:rgba(255, 255,255,0.839);
+    font-family:Tahoma;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1180px;
+}/*header end*/
+/*2-banner*/
+.banner-container {
+    width: 100%;
+    height:100vh;
+   background-image:url("./sb-blog-programming.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.frist-part{
+    margin: 0;
+    width: 100%;
+    left: 50%;
+    justify-content: space-around;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+/*banner end*/
+.hero-titile{
+   margin: 0;
+    font-size: 40px;
+    color: white;
+}
+.hero_desc{
+    font-size: 14px;
+    color: rgba(255, 255, 255,0.884);
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.section-two{
+    max-width: 980px;
+    height: 100vh;
+    margin-left: auto;
+   margin-right: auto;
+   font-size: 15px;
+}
+.text-center{
+    font-size: 40px;
+   line-height: 1.8;
+   font-weight: 400;
+   margin: 20px 0;
+   text-align: center;
+   text-transform: uppercase; 
+}
+.image-s{
+ opacity: 1;
+ border-radius: 4px;
+ max-width:100%;
+ height: auto;
+ vertical-align: middle;
+ border-style: none;
+ float: left;
+ padding: 65px 24px 
+}
+.para-1{
+    padding: 48px 24px;
+    font-size: 15px;
+    font-family:" Lato", sans-serif;  
+}
+.para-2{
+    font-family:" Lato", sans-serif;
+    font-size: 15px;
+
+}
+.section-3d{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+.card-serviestext{
+    cursor: pointer;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 2px rgb(165,165,165);
+    overflow: hidden;
+    text-align: center;
+}
+.card-section{
+    width: 100%;
+    height: 200px;
+}
+.serviesIcon{
+    font-size: 36px;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.card-title{
+  text-align: center;
+}
+.card-text{
+    width: 100%;
+    height: 100%;
+}
+.card:hover .serviesIcon{
+ color: #008000;
+}
+.serviestext:hover{
+    border: 1px solid #008000;
+}
+.contact-scetion{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.form-contact{
+    width: 50%;
+    height: 302px;
+    margin: 10px;
+    border-radius: 5px;
+  background-color: #f9fcfd;
+  padding: 10px;
+  margin-left: 20%;
+}
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-group label{
+    width: 100%;
+    color: rgb(165,165,165);
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    transform: 0.5s ease-in-out;
+}
+.input-group input{
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    color: #2098ca;
+    border-bottom:1px solid #c9c9c98a;
+}
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+ color: #2098ca;
+ top:-15px;
+ font-size: 15px;
+}
+.input-group input:focus,
+.input-group input:valid{
+ border-color: #2098ca;
+}
+.submit-section{
+    text-align: center;
+}
+.submit-btn{
+    background-color: #2098ca;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 300px;
+    cursor: pointer;
+}
+.submit-btn{
+    box-shadow: 0 3px 6px silver;
+}
+
+footer{
+    text-align: center;
+    height: 10%;
+    color: gray;
+    padding: 15px;
+    margin-top: 10px;
+}
+span{
+color: #2098ca;
+font: bold;
+}
+.section-4{
+    width: 100%;
+    margin: auto;
+
+}
+.card-img-top{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.section-4b{
+    padding: 20px;
+    height: 205vh;
+    font-family: Arial;
+    max-width: 100%;
+    margin: 10px 100px;
+    background-color: #2098ca;
+}
+.card-area{
+    padding: 8px;
+    float: left;
+    width: 50%;
+   height: 40%;
+}
+.card-body{
+    background-color: white;
+   padding: 10px;
+}
+.card-body a{
+   background-color: #2098ca;
+   color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1px;
+    padding: 10px;
+    margin-left: 180px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer
+}
